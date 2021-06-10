@@ -1,0 +1,27 @@
+.app {
+  text-align: center;
+}
+.logo{
+  width: 150px;
+  height: 70px;
+}
+.app-form{
+  padding: 20px;
+  bottom: 0;
+  position: fixed;
+  z-index: 1;
+  width: 90%;
+  margin: 20px;
+  background-color: #ceced6;
+}
+.app-form-control{
+  display: flex !important;
+  flex-direction: row !important;
+}
+.app-input{
+  flex: 1;
+}
+.app-button{
+  flex: 0;
+}
+
